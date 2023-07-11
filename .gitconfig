@@ -1,0 +1,7 @@
+[user]
+	name = Geidel Guerra
+	email = geidelguerra@protonmail.com
+[init]
+  defaultBranch = main
+[core]
+  editor = nvim
