@@ -2,8 +2,8 @@ alias vpnon="protonvpn-cli c --fastest"
 alias vpnoff="protonvpn-cli d"
 alias vpnstatus="protonvpn-cli s"
 alias internetinfo="node ~/projects/personal/nauta-cli/src/index user-info"
-alias interneton="node ~/projects/personal/nauta-cli/src/index.js connect --force"
-alias internetoff="node ~/projects/personal/nauta-cli/src/index.js disconnect"
+alias interneton="node ~/projects/personal/nauta-cli/src/index.js connect --force && protonvpn-cli c --fastest"
+alias internetoff="protonvpn-cli d ; node ~/projects/personal/nauta-cli/src/index.js disconnect"
 alias artisan="php artisan"
 
 # Print public IP. 
