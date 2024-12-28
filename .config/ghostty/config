@@ -1,7 +1,7 @@
 theme = Afterglow
 
 font-family = 0xProto Nerd Font
-font-size = 18
+font-size = 16
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
