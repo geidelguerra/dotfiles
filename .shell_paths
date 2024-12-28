@@ -1,0 +1,7 @@
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:/opt/android/sdk/cmdline-tools/bin"
+export PATH="$PATH:/opt/android/ndk"
+export PATH="$PATH:/opt/go/bin"
+export PATH=/home/geidel/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
+
