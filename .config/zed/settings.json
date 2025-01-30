@@ -20,7 +20,7 @@
   },
   "ui_font_size": 18,
   "ui_font_family": "0xProto Nerd Font",
-  "buffer_font_size": 20,
+  "buffer_font_size": 18,
   "theme": {
     "mode": "dark",
     "light": "One Light",
@@ -33,6 +33,15 @@
   "soft_wrap": "none",
   "format_on_save": "off",
   "project_panel": {
-      "auto_fold_dirs": false
+      "auto_fold_dirs": false,
+      "dock": "right"
+  },
+  "show_whitespaces": "all",
+  "languages": {
+      "PHP": {
+          "language_servers": [
+              "intelephense"
+          ]
+      }
   }
 }
