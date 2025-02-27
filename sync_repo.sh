@@ -1,12 +1,15 @@
 #!/usr/bin/env sh
 
-cp ~/.gitconfig .
-cp ~/.shell_paths .
-cp ~/.tmux.conf .
-cp ~/.zshrc .
+REPO_DIR=$HOME/projects/personal/dotfiles/
+cp ~/.gitconfig $REPO_DIR
+cp ~/.shell_paths $REPO_DIR
+cp ~/.tmux.conf $REPO_DIR
+cp ~/.zshrc $REPO_DIR
 
-rsync -a --delete ~/.config/ghostty .config/
-rsync -a --delete ~/.config/nvim/init.lua .config/nvim/
-rsync -a --delete ~/.config/zed .config/
+rsync -a --delete ~/.config/ghostty $REPO_DIR/.config/
+rsync -a --delete ~/.config/nvim/init.lua $REPO_DIR/.config/nvim/
+rsync -a --delete ~/.config/zed $REPO_DIR/.config/
 
+cd $REPO_DIR
 git add . && git commit -m 'sync' && git push origin master
+cd -

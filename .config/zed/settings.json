@@ -9,8 +9,8 @@
 {
   "assistant": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
+      "provider": "ollama",
+      "model": "deepseek-r1:7b"
     },
     "version": "2"
   },
@@ -20,11 +20,11 @@
   },
   "ui_font_size": 18,
   "ui_font_family": "0xProto Nerd Font",
-  "buffer_font_size": 18,
+  "buffer_font_size": 20.0,
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Andromeda"
+    "dark": "Ayu Dark"
   },
   "tab_size": 4,
   "indent_guides": {
