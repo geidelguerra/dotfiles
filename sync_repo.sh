@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 REPO_DIR=$HOME/projects/personal/dotfiles/
+
 cp ~/.gitconfig $REPO_DIR
 cp ~/.shell_paths $REPO_DIR
 cp ~/.tmux.conf $REPO_DIR
