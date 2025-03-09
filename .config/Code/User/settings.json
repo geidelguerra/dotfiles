@@ -1,0 +1,208 @@
+{
+    "editor.fontFamily": "0xProto Nerd Font",
+    "editor.fontSize": 22,
+    "editor.fontLigatures": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.renderLineHighlight": "all",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderFinalNewline": "on",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontSize": 22,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "none",
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.renderIndicators": true,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "telemetry.telemetryLevel": "off",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+    "editor.renderWhitespace": "all",
+    "breadcrumbs.enabled": true,
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#388E3C",
+        "list.activeSelectionForeground": "#388E3C",
+        "list.inactiveSelectionForeground": "#388E3C",
+        "list.highlightForeground": "#388E3C",
+        "scrollbarSlider.activeBackground": "#388E3C50",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#388E3C",
+        "notificationLink.foreground": "#388E3C",
+        "editorWidget.resizeBorder": "#388E3C",
+        "editorWidget.border": "#388E3C",
+        "settings.modifiedItemIndicator": "#388E3C",
+        "settings.headerForeground": "#388E3C",
+        "panelTitle.activeBorder": "#388E3C",
+        "breadcrumb.activeSelectionForeground": "#388E3C",
+        "menu.selectionForeground": "#388E3C",
+        "menubar.selectionForeground": "#388E3C"
+    },
+    "explorer.autoReveal": false,
+    "workbench.editor.enablePreview": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.autorefresh": false,
+    "zenMode.hideLineNumbers": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "none",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "css.lint.validProperties": [
+        "@screen"
+    ],
+    "css.lint.universalSelector": "warning",
+    "css.lint.important": "warning",
+    "extensions.ignoreRecommendations": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "explorer.compactFolders": false,
+    "workbench.editor.limit.enabled": true,
+    "[plaintext]": {},
+    "git.confirmSync": false,
+    "php.suggest.basic": false,
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.sideBar.location": "right",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "php.validate.enable": false,
+    "editor.rulers": [
+        100
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false
+    },
+    "files.watcherExclude": {
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+    "files.eol": "\n",
+    "git.openRepositoryInParentFolders": "never",
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "[python]": {
+        "editor.indentSize": 4,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.trimAutoWhitespace": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.renderWhitespace": "all",
+        "editor.renderLineHighlight": "all",
+        "editor.inlayHints.enabled": "on",
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "workbench.editor.showTabs": "single",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "diffEditor.ignoreTrimWhitespace": false
+    },
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        ".env*": "dotenv",
+        "raylib.h": "c",
+        "raymath.h": "c",
+        "time.h": "c",
+        "cmath": "c",
+        "*.tcc": "c",
+        "cstdlib": "c",
+        "stdio.h": "c",
+        "string.h": "c"
+    },
+    "editor.tokenColorCustomizations": {
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        },
+        "textMateRules": []
+    },
+    "dotenv.enableAutocloaking": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "window.newWindowDimensions": "maximized",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.tabSize": 4
+    },
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
+    "makefile.configureOnOpen": true,
+    "explorer.confirmPasteNative": false,
+    "ols.prompt.AskCreateOLS": false,
+    "rapidapi.terminalLink.enabled": false,
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+    "bladeFormatter.format.wrapLineLength": 1000000000000000000,
+    "blade.format.enable": true,
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "intelephense.phpdoc.returnVoid": false,
+    "php.inlayHints.parameters.enabled": false,
+    "php.inlayHints.types.lambdaParameter": false,
+    "todo-tree.general.showActivityBarBadge": true,
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto"
+}

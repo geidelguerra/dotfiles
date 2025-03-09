@@ -42,7 +42,8 @@
   "show_whitespaces": "all",
   "languages": {
       "PHP": {
-        "language_servers": ["intelephense", "!phpactor"]
+          "language_servers": ["!intelephense", "phpactor"]
       }
-    }
+  },
+  "max_tabs": 2
 }
