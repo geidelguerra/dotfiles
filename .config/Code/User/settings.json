@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "0xProto Nerd Font",
-    "editor.fontSize": 22,
+    "editor.fontSize": 18,
     "editor.fontLigatures": true,
     "editor.snippetSuggestions": "inline",
     "editor.renderLineHighlight": "all",
@@ -18,6 +18,9 @@
     "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
     "terminal.integrated.fontSize": 22,
     "terminal.integrated.fontLigatures.enabled": true,
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "none",
+    "window.zoomLevel": 1.5,
     "workbench.enableExperiments": false,
     "workbench.startupEditor": "none",
     "diffEditor.renderSideBySide": true,
@@ -59,8 +62,6 @@
     "git.autorefresh": false,
     "zenMode.hideLineNumbers": false,
     "explorer.confirmDragAndDrop": false,
-    "window.restoreFullscreen": true,
-    "window.restoreWindows": "none",
     "tailwindCSS.emmetCompletions": true,
     "tailwindCSS.includeLanguages": {
         "plaintext": "html"
