@@ -141,23 +141,7 @@
     },
     "files.associations": {
         "*.embeddedhtml": "html",
-        ".env*": "dotenv",
-        "raylib.h": "c",
-        "raymath.h": "c",
-        "time.h": "c",
-        "cmath": "c",
-        "*.tcc": "c",
-        "cstdlib": "c",
-        "stdio.h": "c",
-        "string.h": "c",
-        "freertos.h": "c",
-        "task.h": "c",
-        "gpio.h": "c",
-        "esp_log.h": "c",
-        "led_strip.h": "c",
-        "led_strip_spi.h": "c",
-        "usb_host.h": "c",
-        "hid_host.h": "c"
+        ".env*": "dotenv"
     },
     "editor.tokenColorCustomizations": {
         "[*Light*]": {
