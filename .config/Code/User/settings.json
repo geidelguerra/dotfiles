@@ -12,11 +12,11 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.renderControlCharacters": true,
     "editor.renderFinalNewline": "on",
     "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
-    "terminal.integrated.fontSize": 22,
+    "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontLigatures.enabled": true,
     "window.restoreFullscreen": true,
     "window.restoreWindows": "none",
@@ -149,7 +149,15 @@
         "*.tcc": "c",
         "cstdlib": "c",
         "stdio.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "gpio.h": "c",
+        "esp_log.h": "c",
+        "led_strip.h": "c",
+        "led_strip_spi.h": "c",
+        "usb_host.h": "c",
+        "hid_host.h": "c"
     },
     "editor.tokenColorCustomizations": {
         "[*Light*]": {
@@ -187,8 +195,10 @@
         "editor.tabSize": 4
     },
     "[typescript]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "typescript.preferences.quoteStyle": "single"
     },
+    "typescript.format.semicolons": "insert",
     "makefile.configureOnOpen": true,
     "explorer.confirmPasteNative": false,
     "ols.prompt.AskCreateOLS": false,
@@ -205,5 +215,25 @@
     "php.inlayHints.types.lambdaParameter": false,
     "todo-tree.general.showActivityBarBadge": true,
     "workbench.activityBar.location": "top",
-    "window.customTitleBarVisibility": "auto"
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "compact",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "idf.hasWalkthroughBeenShown": true,
+    "idf.espIdfPath": "/home/geidel/esp-idf",
+    "idf.toolsPath": "/home/geidel/.espressif",
+    "idf.gitPath": "git",
+    "idf.pythonInstallPath": "/home/geidel/.espressif/python_env/idf5.4_py3.11_env/bin/python",
+    "idf.showOnboardingOnInit": false,
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "window.commandCenter": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false
 }
