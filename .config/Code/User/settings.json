@@ -33,7 +33,6 @@
         "**/vendor": true
     },
     "editor.renderWhitespace": "all",
-    "breadcrumbs.enabled": true,
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#388E3C",
         "list.activeSelectionForeground": "#388E3C",
@@ -141,7 +140,8 @@
     },
     "files.associations": {
         "*.embeddedhtml": "html",
-        ".env*": "dotenv"
+        ".env*": "dotenv",
+        "*.templ": "templ"
     },
     "editor.tokenColorCustomizations": {
         "[*Light*]": {
@@ -207,17 +207,13 @@
         "markdown": false,
         "scminput": false
     },
-    "idf.hasWalkthroughBeenShown": true,
-    "idf.espIdfPath": "/home/geidel/esp-idf",
-    "idf.toolsPath": "/home/geidel/.espressif",
-    "idf.gitPath": "git",
-    "idf.pythonInstallPath": "/home/geidel/.espressif/python_env/idf5.4_py3.11_env/bin/python",
-    "idf.showOnboardingOnInit": false,
-    "idf.openOcdConfigs": [
-        "interface/ftdi/esp32_devkitj_v1.cfg",
-        "target/esp32s3.cfg"
-    ],
     "window.commandCenter": false,
     "chat.commandCenter.enabled": false,
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "notebook.lineNumbers": "on",
+    "docker.extension.enableComposeLanguageServer": false,
+    "php.problems.exclude": {},
+    "[templ]": {
+        "editor.defaultFormatter": "a-h.templ"
+    }
 }

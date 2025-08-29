@@ -8,13 +8,14 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "none"
   },
-  "agent": {
+  "assistant": {
     "default_model": {
       "provider": "copilot_chat",
       "model": "gpt-4.1"
     },
+    "version": "2"
   },
   "telemetry": {
     "diagnostics": false,
