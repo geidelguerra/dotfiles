@@ -158,3 +158,6 @@ chpwd_functions=(tmux_rename_window)
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="/home/geidel/go/bin:$PATH"
+
+
+export MESA_VK_DEVICE_SELECT=10de:2191
