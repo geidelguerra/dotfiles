@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "language_models": {
+        "ollama": {
+            "api_url": "http://100.99.89.71:11434"
+        }
+    },
     "edit_predictions": {
         "disabled_globs": [".env*", ".git/", "*_templ.go"],
         "mode": "eager",
@@ -22,9 +27,10 @@
         "edit_prediction_provider": "copilot"
     },
     "agent": {
+        "play_sound_when_agent_done": true,
         "default_model": {
             "provider": "copilot_chat",
-            "model": "gpt-4.1"
+            "model": "gpt-4o"
         }
     },
     "telemetry": {
