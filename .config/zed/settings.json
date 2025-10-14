@@ -7,11 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-    "language_models": {
-        "ollama": {
-            "api_url": "http://100.99.89.71:11434"
-        }
-    },
     "edit_predictions": {
         "disabled_globs": [".env*", ".git/", "*_templ.go"],
         "mode": "eager",

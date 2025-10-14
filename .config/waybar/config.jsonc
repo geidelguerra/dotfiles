@@ -10,6 +10,7 @@
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["clock", "custom/screenrecording-indicator"],
   "modules-right": [
+    "network",
     "pulseaudio",
     "battery"
   ],
@@ -38,7 +39,7 @@
       "6": [],
       "7": [],
       "8": [],
-      "9": [],
+      "9": []
     }
   },
   "custom/omarchy": {
@@ -54,7 +55,6 @@
     "signal": 7,
     "interval": 3600
   },
-
   "cpu": {
     "interval": 5,
     "format": "󰍛",
@@ -67,7 +67,7 @@
     "on-click-right": "omarchy-cmd-tzupdate"
   },
   "network": {
-    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "interface": "enp8s0",
     "format": "{icon}",
     "format-wifi": "{icon}",
     "format-ethernet": "󰀂",
@@ -75,9 +75,7 @@
     "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
-    "interval": 3,
-    "spacing": 1,
-    "on-click": "omarchy-launch-wifi"
+    "interval": 3
   },
   "battery": {
     "format": "{capacity}% {icon}",
