@@ -1,0 +1,16 @@
+# Application bindings
+$terminal = uwsm app -- $TERMINAL
+$browser = omarchy-launch-browser
+$lock = omarchy-lock-screen
+$editor = ~/.local/bin/zed
+$audio = $TERMINAL --class=Wiremix -e wiremix
+
+bindd = SUPER, return, Terminal, exec, $terminal --working-directory="$(omarchy-cmd-terminal-cwd)"
+bindd = SUPER, F, File manager, exec, uwsm app -- nautilus --new-window
+bindd = SUPER, B, Browser, exec, $browser
+bindd = SUPER SHIFT, B, Browser (private), exec, $browser --private
+bindd = SUPER, T, Activity, exec, $terminal -e btop
+bindd = SUPER, L, LockScreen, exec, $lock
+bindd = SUPER, E, Editor, exec, $editor
+bindd = SUPER, A, Audio, exec, $audio
+bindd = SUPER, N, Notes, exec, obsidian --disable-gpu

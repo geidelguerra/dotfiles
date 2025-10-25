@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "prettier": {
+        "allowed": true
+    },
     "edit_predictions": {
         "disabled_globs": [".env*", ".git/", "*_templ.go"],
         "mode": "eager",
@@ -52,15 +55,27 @@
     },
     "show_whitespaces": "all",
     "languages": {
-        "PHP": {
-            "language_servers": ["!intelephense", "phpactor"]
-        },
         "Templ": {
             "formatter": {
                 "external": {
                     "command": "templ",
                     "arguments": ["fmt", "-stdin-filepath", "{buffer_path}"]
                 }
+            }
+        },
+        "Go": {
+            "formatter": {
+                "external": {
+                    "command": "gofmt",
+                    "arguments": []
+                }
+            }
+        },
+        "TypeScript": {
+            "formatter": "prettier",
+            "prettier": {
+                "enabled": true,
+                "config_file": ".prettierrc.json"
             }
         }
     },
