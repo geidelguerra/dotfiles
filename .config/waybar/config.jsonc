@@ -61,7 +61,7 @@
     "on-click": "$TERMINAL -e btop"
   },
   "clock": {
-    "format": "{:L%A %H:%M %d %B %Y %Z}",
+    "format": "{:L%A %H:%M - %d %B %Y %Z}",
     "format-alt": "{:L%d %B W%V %Y}",
     "timezones": ["", "UTC"],
     "tooltip": false,
