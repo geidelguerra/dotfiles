@@ -55,6 +55,10 @@
         "default_model": {
             "provider": "copilot_chat",
             "model": "claude-sonnet-4.5"
+        },
+        "commit_message_model": {
+            "provider": "copilot_chat",
+            "model": "claude-sonnet-4.5"
         }
     },
     "telemetry": {
