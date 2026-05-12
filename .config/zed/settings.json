@@ -7,7 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "cli_default_open_behavior": "existing_window",
+    "outline_panel": {
+        "dock": "left",
+    },
+    "collaboration_panel": {
+        "dock": "left",
+    },
     "git_panel": {
+        "dock": "left",
         "tree_view": false,
     },
     "lsp": {
@@ -33,6 +41,11 @@
                 },
             },
         },
+        "dart": {
+            "settings": {
+                "lineLength": 200,
+            }
+        },
     },
     "use_smartcase_search": true,
     "search": {
@@ -50,10 +63,10 @@
             "proxy_no_verify": null,
             "enterprise_uri": null,
         },
-        "enabled_in_text_threads": false,
     },
     "show_edit_predictions": true,
     "agent": {
+        "dock": "right",
         "tool_permissions": {
             "tools": {
                 "terminal": {
@@ -70,12 +83,12 @@
             "provider": "copilot_chat",
             "model": "claude-opus-4.6",
         },
-        "play_sound_when_agent_done": true,
+        "play_sound_when_agent_done": "when_hidden",
         "default_model": {
             "effort": "high",
             "enable_thinking": true,
             "provider": "copilot_chat",
-            "model": "claude-opus-4.6",
+            "model": "claude-sonnet-4.6",
         },
         "commit_message_model": {
             "provider": "copilot_chat",
@@ -129,6 +142,10 @@
                 "enabled": true,
                 "config_file": ".prettierrc.json",
             },
+        },
+        "Dart": {
+            "formatter": "language_server",
+            "format_on_save": "off",
         },
     },
     "max_tabs": 10,
