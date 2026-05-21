@@ -6,7 +6,7 @@
     "margin-left": 0,
     "margin-right": 0,
     "margin-top": 0,
-    "height": 28,
+    "height": 32,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock", "custom/weather", "clock#utc", "custom/voxtype", "custom/screenrecording-indicator", "custom/idle-indicator", "custom/notification-silencing-indicator"],
     "modules-right": ["network", "pulseaudio", "battery"],
