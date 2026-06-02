@@ -80,18 +80,19 @@
         },
         "default_profile": "write",
         "inline_assistant_model": {
-            "provider": "copilot_chat",
-            "model": "claude-haiku-4.5",
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4.6",
         },
         "play_sound_when_agent_done": "when_hidden",
         "default_model": {
+            "effort": "high",
             "enable_thinking": true,
-            "provider": "copilot_chat",
-            "model": "claude-haiku-4.5",
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4.6",
         },
         "commit_message_model": {
-            "provider": "copilot_chat",
-            "model": "claude-sonnet-4.5",
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4.6",
         },
     },
     "telemetry": {
